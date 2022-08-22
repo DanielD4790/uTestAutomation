@@ -61,7 +61,7 @@ def test_main(driver):
                                 "#email")
     email.click()
 
-    # 8. Type 'dnl.47@hotmail.com' in 'email'
+    # 8. Type 'correo electronico' in 'email'
     email = driver.find_element(By.CSS_SELECTOR,
                                 "#email")
     email.send_keys("vrk.dom@gmail.com")
