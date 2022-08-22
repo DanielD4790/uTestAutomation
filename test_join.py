@@ -24,11 +24,11 @@ def driver():
 def test_main(driver):
     """Diligenciamiento de formulario de acceso, para crear un nuevo usuario."""
     # Test Parameters
-    # Auto generated application URL parameter
+    # Application URL parameter
     ApplicationURL = "https://utest.com/"
 
     # 1. Navigate to '{ApplicationURL}'
-    # Navigates the specified URL (Auto-generated)
+    # Navigates the specified URL
     driver.get(f'{ApplicationURL}')
 
     # 2. Click 'Join Today'
