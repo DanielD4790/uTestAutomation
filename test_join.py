@@ -64,7 +64,7 @@ def test_main(driver):
     # 8. Type 'dnl.47@hotmail.com' in 'email'
     email = driver.find_element(By.CSS_SELECTOR,
                                 "#email")
-    email.send_keys("jean.caballero29@hotmail.com")
+    email.send_keys("vrk.dom@gmail.com")
 
     # 9. Click 'birthMonth'
     birthmonth = driver.find_element(By.CSS_SELECTOR,
